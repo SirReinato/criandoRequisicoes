@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-family-titulo: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --font-family-paragrafo: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    --cor-principal: #BADA55;
+    --cor-secundaria: #b712c5;
+    --cor-terciaria: #dd5477;
+    --font-titulo: 2.3em;
+    --font-secundarias: 1.6em;
+    --font-paragrafos: 1.4em;
+}
+
+
+/* FORMULARIO */
+.toFormulario{
+    width: 960px;
+    margin: 0 auto;
+    background: var(--cor-terciaria);
+}
+.toFormulario h1{
+    font-family: var(--font-family-titulo);
+    font-weight: bold;
+
+    text-align: center;
+
+    color: var(--cor-principal);
+}
+.form{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.form-itens label{
+    font-size: var(--font-secundarias);
+    font-family: var(--font-family-paragrafo);
+    display: block;
+    font-weight: bold;
+
+    color: var(--cor-principal);
+}
+.form-itens input{
+    font-size: var(--font-paragrafos);
+    font-family: var(--font-secundarias);
+    width: 100%;
+    padding: 10px;
+
+    border: 2px solid var(--cor-principal);
+    background: var(--cor-terciaria);
+    color: var(--cor-principal);
+}
+
+.btnInput{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: var(--font-secundarias);
+    font-family: var(--font-family-paragrafo);
+    line-height: .1em;
+    border: 2px solid var(--cor-principal);
+    background: none;
+    color: var(--cor-principal);
+}
+
+/* VITRINE */
+.vitrine{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.livraria{
+    width: 200px;
+    margin: 10px 0;
+    border: 3px solid;
+}
+.livraria h2{
+    height: 120px;
+    font-size: var(--font-paragrafos);
+    font-family: var(--font-family-titulo);
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: .1em;
+    border: 5px solid;
+
+    background: var(--cor-principal);
+    color: var(--cor-terciaria);
+}
+.livraria h2::after{
+    content: '';
+    display: block;
+    width: 20%;
+    margin: 10px auto;
+    border: 2px solid ;
+}
+.livraria figure{
+    width: 100%;
+    display: block;
+}
+.livraria figure img{
+    width: 100%;
+    height: 350px;
+}
+.livraria figure figcaption{
+    font-size: var(--font-paragrafos);
+    font-family: var(--font-family-paragrafo);
+    text-align: center;
+
+    color: var(--cor-terciaria);
+}
+.livraria figure figcaption::after,.livraria figure figcaption::before{
+    content: ' - ';
+    width: 20px;
+}
