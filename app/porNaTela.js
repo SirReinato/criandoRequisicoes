@@ -8,9 +8,9 @@ async function porLivroNaTela() {
     livrosQueJaTem.forEach(livro => {
         vitrine.innerHTML += `
         <div class="livraria">
-            <h2 class="titulo">${livro.nome}</h2>
             <figure>
                 <img src="${livro.capa}" alt="capa do livro ${livro.nome}">
+                <h2 class="titulo">${livro.nome}</h2>
                 <figcaption>${livro.autor}</figcaption>
             </figure>
             

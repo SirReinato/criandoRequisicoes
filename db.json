@@ -29,6 +29,36 @@
       "capa": "https://www.adobe.com/br/express/create/cover/media_11a581b5a299669421cc1898fba9f59c942dacd73.jpeg?width=400&format=jpeg&optimize=medium",
       "autor": "Hannah Kelley",
       "id": 5
+    },
+    {
+      "nome": "Quarta Capa",
+      "capa": "https://editoraflutuante.com.br/wp-content/uploads/2018/08/Quarta-Capa-Frente-1.jpg",
+      "autor": "Ingrid",
+      "id": 6
+    },
+    {
+      "nome": "História Diversa",
+      "capa": "https://www.ufsm.br/app/uploads/sites/510/2019/05/Capa-livro-Hist%C3%B3ria-Diversa-788x1024.jpg",
+      "autor": "Beatriz Gallotti",
+      "id": 7
+    },
+    {
+      "nome": "O primeiro Beijo de Romeu",
+      "capa": "https://portalpopline.com.br/wp-content/uploads/2021/11/Capa-O-Pimeiro-Beijo-de-Romeu.jpg",
+      "autor": "Felipe Cabral",
+      "id": 8
+    },
+    {
+      "nome": "Apenas um Garoto",
+      "capa": "https://1.bp.blogspot.com/-CA0rjVY_WCw/WwvP1fyga6I/AAAAAAAAVbM/Zwqt4yCZe0QPf_3w_Jbv-ARzfws4-vutQCLcBGAs/s1600/apenas-um-garoto-capa-livro-book-cover.jpg",
+      "autor": "Bill Konigsber",
+      "id": 9
+    },
+    {
+      "nome": "Filhas da Lua",
+      "capa": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5hm9u_9eBMROH3pBB3Ge208Yq8BoMqMGQmg&usqp=CAU",
+      "autor": "Carolina França",
+      "id": 10
     }
   ]
 }
